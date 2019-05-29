@@ -14,9 +14,10 @@ public class DataManager {
             Statement stmt = connection.createStatement();
             ResultSet resultSet = stmt.executeQuery("select * from course");
 
-
-            resultSet.afterLast();
-            while (resultSet.previous()) {
+            //to print in reverse order
+            //resultSet.afterLast();
+            //use resultSet.previous() in while loop
+            while (resultSet.next()) {
                 int id = resultSet.getInt(1);
                 String name=resultSet.getString(2);
                 int duration=resultSet.getInt(3);
