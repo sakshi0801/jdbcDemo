@@ -1,9 +1,6 @@
 package com.stackroute;
 
-import com.stackroute.jdbcDemo.DataManager;
-import com.stackroute.jdbcDemo.DatabaseMetaDataDemo;
-import com.stackroute.jdbcDemo.JdbcBatchProcessingDemo;
-import com.stackroute.jdbcDemo.PreparedStatementDemo;
+import com.stackroute.jdbcDemo.*;
 
 public class App 
 {
@@ -26,6 +23,10 @@ public class App
         System.out.println("Database Meta-data");
         DatabaseMetaDataDemo metaDataDemo=new DatabaseMetaDataDemo();
         metaDataDemo.getDatabaseMetaData();
+
+        System.out.println("Result set Meta-data");
+        ResultSetMetaDataDemo setMetaDataDemo=new ResultSetMetaDataDemo();
+        setMetaDataDemo.getResultSetMetadata();
 
     }
 }
