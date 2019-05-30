@@ -3,20 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="434ac1eb-4d96-4d50-b041-5c197933b7c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/DataManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/DatabaseMetaDataDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/DatabaseMetaDataDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/JdbcBatchProcessingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/JdbcBatchProcessingDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/JdbcTransactionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/JdbcTransactionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/PreparedStatementDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/PreparedStatementDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/ResultSetMetaDataDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/ResultSetMetaDataDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/RowsetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/RowsetDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/jdbcDemo/JdbcTransactionDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/jdbcDemo/JdbcTransactionDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/jdbcDemo/PreparedStatementDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/jdbcDemo/PreparedStatementDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/jdbcDemo/ResultSetMetaDataDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/jdbcDemo/ResultSetMetaDataDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/jdbcDemo/RowsetDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/jdbcDemo/DataManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/jdbcDemo/DataManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/jdbcDemo/DatabaseMetaDataDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/jdbcDemo/DatabaseMetaDataDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/jdbcDemo/JdbcBatchProcessingDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/jdbcDemo/JdbcBatchProcessingDemo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,22 +23,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/ResultSetMetaDataDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="345">
+              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/ResultSetMetaDataDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="99" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/RowsetDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -73,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/DataManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="495">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -92,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/JdbcTransactionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -114,21 +103,21 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/ResultSetMetaDataDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/PreparedStatementDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/DatabaseMetaDataDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/DataManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/JdbcBatchProcessingDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/JdbcTransactionDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/RowsetDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/App.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="748" />
-    <option name="y" value="47" />
-    <option name="width" value="785" />
-    <option name="height" value="833" />
+    <option name="x" value="174" />
+    <option name="y" value="27" />
+    <option name="width" value="1151" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -315,14 +304,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559180432322</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="try with resources">
+      <created>1559198288007</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559198288007</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <frame x="67" y="25" width="1533" height="875" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25622058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25958306" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -339,7 +335,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.9597855" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -356,7 +352,8 @@
     <MESSAGE value="implemented Database Metadata" />
     <MESSAGE value="implemented ResultSet Metadata" />
     <MESSAGE value="implemented Jdbc Transaction" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented Jdbc Transaction" />
+    <MESSAGE value="try with resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="try with resources" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/AppTest.java">
@@ -380,13 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/DatabaseMetaDataDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -397,10 +387,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/RowsetDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/PreparedStatementDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/DataManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="495">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -414,31 +428,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/JdbcTransactionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/PreparedStatementDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/ResultSetMetaDataDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/jdbcDemo/RowsetDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="99" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="99" />
         </state>
       </provider>
     </entry>
