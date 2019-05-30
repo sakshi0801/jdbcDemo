@@ -8,10 +8,10 @@ import java.sql.SQLException;
 public class DatabaseMetaDataDemo {
 
     public void getDatabaseMetaData(){
-        try {
+        try(Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sakshi", "root", "Root@123")
+        ) {
             Class.forName("com.mysql.cj.jdbc.Driver");
             //obtain connection
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sakshi", "root", "Root@123");
             DatabaseMetaData metaData=connection.getMetaData();
             System.out.println("Driver name is "+metaData.getDriverName());
             System.out.println("Driver version is "+metaData.getDriverVersion());

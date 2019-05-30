@@ -5,14 +5,14 @@ import java.sql.*;
 public class DataManager {
 
     public void getAllStudents() {
-        //register driver
 
-        try {
+        try(Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sakshi", "root", "Root@123");
+            Statement stmt = connection.createStatement();
+            ResultSet resultSet = stmt.executeQuery("select * from course")
+        ) {
+            //register driver
             Class.forName("com.mysql.cj.jdbc.Driver");
             //obtain connection
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sakshi", "root", "Root@123");
-            Statement stmt = connection.createStatement();
-            ResultSet resultSet = stmt.executeQuery("select * from course");
 
             //to print in reverse order
             //resultSet.afterLast();

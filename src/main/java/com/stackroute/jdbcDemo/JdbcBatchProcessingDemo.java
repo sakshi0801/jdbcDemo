@@ -5,11 +5,10 @@ import java.sql.*;
 public class JdbcBatchProcessingDemo {
 
     public void performMultipleInsertion(){
-        try {
+        try(Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sakshi", "root", "Root@123");
+            Statement statement=connection.createStatement()) {
+
             Class.forName("com.mysql.cj.jdbc.Driver");
-            //obtain connection
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sakshi", "root", "Root@123");
-            Statement statement=connection.createStatement();
 
             String query1="insert into course values(6,'j2ee',6)";
             String query2="insert into course values(7,'hibernate',3)";

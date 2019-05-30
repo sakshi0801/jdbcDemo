@@ -16,10 +16,13 @@ public class App
         System.out.println("Get Course By name and duration");
         preparedStatementDemo.getCourseByNameAndDuration("angular",5);
 
-/*        System.out.println("using batch processing");
+/*
+        System.out.println("using batch processing");
         JdbcBatchProcessingDemo batchDemo=new JdbcBatchProcessingDemo();
         batchDemo.performMultipleInsertion();
-        dataManager.getAllStudents();*/
+        dataManager.getAllStudents();
+*/
+
         System.out.println("Database Meta-data");
         DatabaseMetaDataDemo metaDataDemo=new DatabaseMetaDataDemo();
         metaDataDemo.getDatabaseMetaData();
@@ -28,10 +31,18 @@ public class App
         ResultSetMetaDataDemo setMetaDataDemo=new ResultSetMetaDataDemo();
         setMetaDataDemo.getResultSetMetadata();
 
+/*
         System.out.println("JDBC transaction using rollback");
         JdbcTransactionDemo jdbcTransactionDemo=new JdbcTransactionDemo();
         jdbcTransactionDemo.insertUsingTransaction();
         dataManager.getAllStudents();
+*/
+
+/*
+        System.out.println("Using rowset");
+        RowsetDemo rowsetDemo=new RowsetDemo();
+        rowsetDemo.getAllStudents();
+*/
 
     }
 }

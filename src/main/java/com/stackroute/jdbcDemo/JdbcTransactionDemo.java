@@ -5,14 +5,13 @@ import java.sql.*;
 public class JdbcTransactionDemo {
 
     public void insertUsingTransaction(){
-        Connection connection=null;
-        Statement stmt=null;
-        try {
+
+        try(Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sakshi", "root", "Root@123");
+            Statement stmt = connection.createStatement();
+            ) {
             Class.forName("com.mysql.cj.jdbc.Driver");
             //obtain connection
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sakshi", "root", "Root@123");
             connection.setAutoCommit(false);
-            stmt = connection.createStatement();
             Savepoint savepoint=connection.setSavepoint("Savepoint");
             String query="Insert into course values(9,'SAP',3)";
             stmt.executeUpdate(query);
