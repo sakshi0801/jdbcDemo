@@ -28,5 +28,10 @@ public class App
         ResultSetMetaDataDemo setMetaDataDemo=new ResultSetMetaDataDemo();
         setMetaDataDemo.getResultSetMetadata();
 
+        System.out.println("JDBC transaction using rollback");
+        JdbcTransactionDemo jdbcTransactionDemo=new JdbcTransactionDemo();
+        jdbcTransactionDemo.insertUsingTransaction();
+        dataManager.getAllStudents();
+
     }
 }
